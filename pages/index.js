@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Destinations from '../components/Destinations';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 
@@ -17,6 +18,7 @@ export default function Home() {
 			<div>
 				<Navbar />
 				<Hero />
+				<Destinations />
 			</div>
 		</div>
 	);
