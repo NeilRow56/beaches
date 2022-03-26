@@ -4,6 +4,7 @@ import Destinations from '../components/Destinations';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Search from '../components/Search';
+import Selects from '../components/Selects';
 
 export default function Home() {
 	return (
@@ -21,6 +22,7 @@ export default function Home() {
 				<Hero />
 				<Destinations />
 				<Search />
+				<Selects />
 			</div>
 		</div>
 	);

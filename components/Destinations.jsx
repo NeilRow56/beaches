@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Destinations = () => {
   return (
-    <div className='max-w-[1440px] py-20 px-4 text-center mx-auto'>
+    <div className='max-w-[1440px] pt-5 md:py-20 px-4 text-center mx-auto'>
         <h1>All-Inclusive Resorts</h1>
         <p>On the Caribbean&apos;s Best Beaches</p>
         <div className='grid grid-rows-2 md:grid-cols-5 py-4 gap-2 md:gap-4'>
