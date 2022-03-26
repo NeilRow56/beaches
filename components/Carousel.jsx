@@ -27,10 +27,10 @@ function Carousel() {
     };
   return (
     <div className='max-w-[1440px] mx-auto px-4 py-16 relative flex justify-center items-center'>
-      <div className='absolute top-[50%] text-3xl text-white cursor-pointer left-[150px] z-20'>
+      <div className='absolute top-[50%] text-3xl text-white cursor-pointer left-6 xl:left-[150px] z-20'>
       <BsArrowLeftSquareFill size={25}  onClick={prevSlide} />
       </div>
-        <div className='absolute top-[50%] text-3xl text-white cursor-pointer right-[150px] z-20'>
+        <div className='absolute top-[50%] text-3xl text-white cursor-pointer right-6 xl:right-[150px] z-20'>
         <BsArrowRightSquareFill className='' size={25} onClick={nextSlide} />
         </div>
         
